@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: worthwhile-catshark-java-springboot-gitops-repository
+spec:
+  url: https://github.com/rhtap-hub/worthwhile-catshark-java-springboot-gitops
